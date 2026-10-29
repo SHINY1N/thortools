@@ -221,7 +221,7 @@ object DeviceProfile {
     private val thorCodenameIdentifiers = setOf("kalama", "odin2thor")
     private val thorBoardIdentifiers = setOf("kalama", "sm8550", "qcs8550")
     private val thorIdentityIdentifiers = thorCodenameIdentifiers + thorBoardIdentifiers + litePlatformIdentifiers
-    private val neutralIdentityIdentifiers = setOf("ayn", "android", "unknown", "qcom", "qualcomm")
+    private val neutralIdentityIdentifiers = setOf("ayn", "android", "unknown", "qcom", "qualcomm", "qssi")
 
     fun isThorLowerDisplay(
         widthPixels: Int,
